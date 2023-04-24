@@ -153,6 +153,7 @@ body {
         justify-content: center;
         text-align: center;
 
+
     }
     .menu__link{
         font-size: 32px;
@@ -163,6 +164,26 @@ body {
     }
 
 }
+
+@media (max-width: 560px) {
+.header__logo {
+    width: 32px;
+    flex: 0 0 32px;
+    overflow: hidden;
+}
+.cart-header__text {
+    display: none;
+}
+.cart-header__quantity{
+    width: 33px;
+    height: 45px;
+    padding-top: 3px;
+    border-radius: 0;
+    background: url("../img/cart.svg") ;
+}
+}
+
+
 
 .menu__list {
     display: flex;
